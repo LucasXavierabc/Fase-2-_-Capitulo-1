@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cada quadrante tem 1 sensor de umidade" directorySegmentName="seg_0" id="4CC9B49E-9A30-0F37-9407-5ECF718E6A89">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:27:28 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="D5C41771-1387-3F10-1220-9C00E71955B0" value="true"/>
+</engineerTo>
+<sourcePk>67E1E38B-4742-5ED2-2B8C-3C4A6FD610ED</sourcePk>
+<targetPk>EA9275C8-884C-E9E0-FE2B-59083EF8F655</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B186868-B143-7D72-65B0-C1BA0C22580E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A5972BC6-0E99-7673-C235-457EE501F4CE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

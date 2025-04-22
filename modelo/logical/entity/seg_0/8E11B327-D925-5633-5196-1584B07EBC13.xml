@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E11B327-D925-5633-5196-1584B07EBC13" name="SENSOR S2: pH DO SOLO">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:08:53 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="D5C41771-1387-3F10-1220-9C00E71955B0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>S2</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="C1F0E74A-8D24-6207-5831-9730CB660131">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:08:53 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="D5C41771-1387-3F10-1220-9C00E71955B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data/Hora" id="8BF092F2-8413-65BE-5CD3-C62A07F6EF49">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:08:53 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="D5C41771-1387-3F10-1220-9C00E71955B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Valor_Leitura_pH" id="AA16AEBA-28F2-8B3C-D444-47AC145D9692">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:08:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[4 dígitos: pH variando de 0 a 14 com 2 casas decimais de precisão]]></commentInRDBMS>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="D5C41771-1387-3F10-1220-9C00E71955B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="A18F1E74-0256-F149-2BEF-646FE6CA3C2E">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:27:52 UTC</createdTime>
+<generatorID>BE0C715A-5AA0-A2E0-FF6D-5164D8577C22</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="D5C41771-1387-3F10-1220-9C00E71955B0" value="true"/>
+</engineerTo>
+<referedAttribute>9060717F-D641-F126-7A0A-8DF37A8A79CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9006F901-7EF0-CD74-9127-27F232CA0763" name="Sensor PK">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:08:53 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="D5C41771-1387-3F10-1220-9C00E71955B0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C1F0E74A-8D24-6207-5831-9730CB660131</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

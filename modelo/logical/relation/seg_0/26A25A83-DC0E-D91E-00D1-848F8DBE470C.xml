@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Uma plantação possui vários quadrantes" directorySegmentName="seg_0" id="26A25A83-DC0E-D91E-00D1-848F8DBE470C">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:26:07 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="D5C41771-1387-3F10-1220-9C00E71955B0" value="true"/>
+</engineerTo>
+<sourcePk>2DDB6C00-0C2C-4175-0E89-32194AA71C1F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CF097205-8972-9B40-3614-32C4A21A0A77</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1B186868-B143-7D72-65B0-C1BA0C22580E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

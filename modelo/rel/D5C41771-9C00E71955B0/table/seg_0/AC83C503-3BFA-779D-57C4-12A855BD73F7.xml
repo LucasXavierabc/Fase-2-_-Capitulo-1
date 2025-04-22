@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC83C503-3BFA-779D-57C4-12A855BD73F7" name="SENSOR 3: PK">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:39:39 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<abbreviation>S3</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6DA6FF1C-57DF-3339-DBE9-5A79577CF19E">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:41:00 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quadrante_ID" id="A35F3E8F-1DB2-1195-C60E-A0C71C8FEEBA">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:57:22 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF4B8098-FD8A-B87A-D02C-BD54927021FA" referredColumn="E842A8C7-C991-060C-E365-17F659C6252A"/>
+</associations>
+</Column>
+<Column name="Data/Hora" id="F4E10404-08F0-E7FD-C6EC-D858EDD32881">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:41:00 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valor_Leitura_PK" id="A2AA1A0A-5B12-C821-9723-DC6763EB0431">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:41:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valores medidos em g/m³]]></commentInRDBMS>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10000</dataTypePrecision>
+<ownDataTypeParameters>,10000,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A4B0F9B-7B5B-D64C-E444-2845BEABB561" name="SENSOR 3: PK_PK">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:41:00 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DA6FF1C-57DF-3339-DBE9-5A79577CF19E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09A582DB-A2FA-2485-F9FF-3DCBD9426635" name="SENSOR 3: PK_Quadrante_FK">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:57:22 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A35F3E8F-1DB2-1195-C60E-A0C71C8FEEBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

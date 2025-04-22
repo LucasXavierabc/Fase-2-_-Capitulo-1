@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cada quadrante tem 1 sensor de pH" directorySegmentName="seg_0" id="BE0C715A-5AA0-A2E0-FF6D-5164D8577C22">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:27:52 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="D5C41771-1387-3F10-1220-9C00E71955B0" value="true"/>
+</engineerTo>
+<sourcePk>67E1E38B-4742-5ED2-2B8C-3C4A6FD610ED</sourcePk>
+<targetPk>9006F901-7EF0-CD74-9127-27F232CA0763</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B186868-B143-7D72-65B0-C1BA0C22580E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8E11B327-D925-5633-5196-1584B07EBC13</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

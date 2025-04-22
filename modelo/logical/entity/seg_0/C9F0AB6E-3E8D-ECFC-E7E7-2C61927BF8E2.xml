@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9F0AB6E-3E8D-ECFC-E7E7-2C61927BF8E2" name="SENSOR S3: POTÁSSIO SÓDIO">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:12:56 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="D5C41771-1387-3F10-1220-9C00E71955B0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>S3</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="59AB4D14-AD07-5D1F-2509-E003CD20F2C2">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:12:56 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="D5C41771-1387-3F10-1220-9C00E71955B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data/Hora" id="98C9DD6C-8621-C525-CC55-D72195D8F6D5">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:12:56 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="D5C41771-1387-3F10-1220-9C00E71955B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Valor_Leitura_PK" id="461AD7B7-08F9-2FAF-8B1B-199DBF12BF24">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:12:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unidade de medida: g/m³]]></commentInRDBMS>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="D5C41771-1387-3F10-1220-9C00E71955B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10000</dataTypePrecision>
+<ownDataTypeParameters>,10000,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="6EF0A2D5-7FEB-A067-FB63-52AEA8B17F54">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:28:05 UTC</createdTime>
+<generatorID>A4B43FA9-5CCA-94EB-9EF4-29289325A869</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="D5C41771-1387-3F10-1220-9C00E71955B0" value="true"/>
+</engineerTo>
+<referedAttribute>9060717F-D641-F126-7A0A-8DF37A8A79CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2965D551-5465-0674-1455-6CFFD5EAA1A6" name="Sensor PK">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:12:56 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="D5C41771-1387-3F10-1220-9C00E71955B0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>59AB4D14-AD07-5D1F-2509-E003CD20F2C2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

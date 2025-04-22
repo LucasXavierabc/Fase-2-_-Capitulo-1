@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8E3B69CF-D531-001F-93B8-EF49F00AD357" containerWithKeyObject="2B601627-21C7-A1E9-3B73-CD7C71DB6BA2" localFKIndex="1F516E91-0534-BA39-7FF2-3CD7983DB59B" name="SENSOR S1: UMIDADE_Quadrante_FK">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:57:13 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>Quadrante</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D5BEB0D2-C8FA-A150-B008-1B49CFDDCCEB</referredTableID>
+<keyObject>0876BD95-9CEA-13DB-9393-0BA1026982C7</keyObject>
+<referredKeyID>0876BD95-9CEA-13DB-9393-0BA1026982C7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

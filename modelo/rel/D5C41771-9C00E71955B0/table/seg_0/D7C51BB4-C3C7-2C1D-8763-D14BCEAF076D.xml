@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7C51BB4-C3C7-2C1D-8763-D14BCEAF076D" name="SENSOR 2: pH">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:38:07 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<abbreviation>S2</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="EB7484ED-E392-5E08-5BB0-5ACF6E49EC87">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:39:29 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quadrante_ID" id="82F99BB5-238E-B180-D38B-2BBD282C47B7">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:57:18 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="726ACB7E-3D11-EA3D-CBAA-2FA4288606A8" referredColumn="E842A8C7-C991-060C-E365-17F659C6252A"/>
+</associations>
+</Column>
+<Column name="Data/Hora" id="53EDB94C-BBFA-B930-DF5D-2F63A6C872A6">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:39:29 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valor_Leitura_pH" id="79C79EA7-7184-44DF-CEE6-92B2B7BE5BBB">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:39:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[4 caracteres: variação do pH de 00 a 14 com 2 casas decimais]]></commentInRDBMS>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24F458E1-8DA2-598F-A353-9186E3927769" name="SENSOR 2: pH_PK">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:39:29 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB7484ED-E392-5E08-5BB0-5ACF6E49EC87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF783C64-27D9-5F9B-7EBC-E2D385EF4A44" name="SENSOR 2: pH_Quadrante_FK">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:57:18 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82F99BB5-238E-B180-D38B-2BBD282C47B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

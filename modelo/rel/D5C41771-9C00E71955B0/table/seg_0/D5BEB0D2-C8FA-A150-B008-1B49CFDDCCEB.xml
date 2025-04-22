@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5BEB0D2-C8FA-A150-B008-1B49CFDDCCEB" name="Quadrante">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:30:29 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E842A8C7-C991-060C-E365-17F659C6252A">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:32:07 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Plantação_ID" id="AE2FE783-CB85-CC1F-9368-C4E7771E51AE">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:57:01 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E3CA645-744B-9680-48C9-3EB1C93DE187" referredColumn="C28C8B79-54AC-F596-3451-6A6D5BD4F248"/>
+</associations>
+</Column>
+<Column name="Numero_Quadrante" id="8390EB2F-25F9-CC6E-0955-DF3CA3CB7249">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:32:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identifica qual quadrante: 1º, 2º, 3º ou 4º]]></commentInRDBMS>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,1,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0876BD95-9CEA-13DB-9393-0BA1026982C7" name="Quadrante_PK">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:32:07 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E842A8C7-C991-060C-E365-17F659C6252A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29CC60B4-3257-0AC1-5B12-F0FC114EF56A" name="Quadrante_Plantação_FK">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:57:01 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE2FE783-CB85-CC1F-9368-C4E7771E51AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

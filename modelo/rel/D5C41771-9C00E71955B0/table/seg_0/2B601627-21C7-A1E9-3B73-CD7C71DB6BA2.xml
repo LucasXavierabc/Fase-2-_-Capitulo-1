@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B601627-21C7-A1E9-3B73-CD7C71DB6BA2" name="SENSOR S1: UMIDADE">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:32:51 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<abbreviation>S1</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="CD3B06CB-7B41-B7B3-9E8E-5B388DF22328">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:35:03 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quadrante_ID" id="7C119833-5065-B416-8422-6973FA1F6C1E">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:57:13 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E3B69CF-D531-001F-93B8-EF49F00AD357" referredColumn="E842A8C7-C991-060C-E365-17F659C6252A"/>
+</associations>
+</Column>
+<Column name="Data/Hora" id="4F701E40-03F0-2CBE-14F3-5A16C583923C">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:35:03 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valor_Leiturar_Umidade" id="DAB02AD8-88FC-AE84-F36C-2B07D985363D">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:35:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valores medidos em %
+4 caracteres: valor máximo de umidade = 99,99%
+]]></commentInRDBMS>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95049975-A186-54E9-EAB0-1698FAE616FD" name="SENSOR S1: UMIDADE_PK">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:35:03 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD3B06CB-7B41-B7B3-9E8E-5B388DF22328"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F516E91-0534-BA39-7FF2-3CD7983DB59B" name="SENSOR S1: UMIDADE_Quadrante_FK">
+<createdBy>Lucas</createdBy>
+<createdTime>2025-04-22 02:57:13 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C119833-5065-B416-8422-6973FA1F6C1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
