@@ -11,3 +11,5 @@
 
  -> Cada Plantação tem uma Cultura e uma Área
  -> Cada Sensor coleta Data e Hora além do seu dado
+
+https://github.com/LucasXavierabc/Fase-2-_-Capitulo-1
